@@ -28,10 +28,10 @@
                             <a href="./ad_add_SyAN.php"  class="nav-link">ADD SYNONYMS / ANTONYMS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./words_table.php" class="nav-link text-white">WORDS TABLE</a>
+                            <a href="./words_table.php" class="nav-link ">WORDS TABLE</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./ad_comment.php" class="nav-link">COMMENTS TABLE</a>
+                            <a href="#" class="nav-link text-white">COMMENTS TABLE</a>
                         </li>
                       </ul>
                     <a href="#" class="btn btn-danger" class="nav-link ">Logout</a>
@@ -41,12 +41,12 @@
     </header>
     <main class="row d-flex justify-content-center m-0 ">
         <div class="col-md-10 col-sm-8 my-5">
-            <h2 class="text-warning text-center mb-3">WORDS TABLE</h2>
+            <h2 class="text-warning text-center mb-3">COMMENTS TABLE</h2>
             <table class="table text-white">
                 <thead>
                     <tr class="text-center fs-4 bg-dark">
                         <th>ID</th>
-                        <th>IMAGE</th>
+                        <th>COMMENT</th>
                         <th>WORD</th>
                         <th>USER</th>
                         <th>STATUS</th>
@@ -56,7 +56,7 @@
                 <tbody>
                     <tr class="text-center">
                         <th>1</th>
-                        <td>Img</td>
+                        <td>COMMENT</td>
                         <td>young</td>
                         <td>Vijay</td>
                         <td>1</td>

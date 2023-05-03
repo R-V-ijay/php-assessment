@@ -35,7 +35,7 @@
         <div class="col-md-6 col-sm-8">
             <form>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label text-white fw-bold fs-5">User Name</label>
+                    <label for="exampleInputEmail1" class="form-label text-white fw-bold fs-5">User Name </label>
                     <input type="text" class="form-control p-2" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                 </div>

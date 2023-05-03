@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+<header>
         <nav class="navbar navbar-expand-lg ">
             <div class=" container">
                 <a class="navbar-brand fs-2 fw-bold text-uppercase text-white" href="../../index.php">ADMIN PANEL</a>
@@ -22,13 +22,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav m-auto ">
                         <li class="nav-item">
-                            <a href="./ad_add_words.php" class="nav-link ">ADD WORDS</a>
+                            <a href="./ad_add_words.php" class="nav-link text-white">ADD WORDS</a>
                         </li>
                         <li class="nav-item">
                             <a href="./ad_add_SyAN.php"  class="nav-link">ADD SYNONYMS / ANTONYMS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./words_table.php" class="nav-link text-white">WORDS TABLE</a>
+                            <a href="./words_table.php" class="nav-link ">WORDS TABLE</a>
                         </li>
                         <li class="nav-item">
                             <a href="./ad_comment.php" class="nav-link">COMMENTS TABLE</a>
@@ -39,43 +39,20 @@
             </div>
         </nav>
     </header>
-    <main class="row d-flex justify-content-center m-0 ">
-        <div class="col-md-10 col-sm-8 my-5">
-            <h2 class="text-warning text-center mb-3">WORDS TABLE</h2>
-            <table class="table text-white">
-                <thead>
-                    <tr class="text-center fs-4 bg-dark">
-                        <th>ID</th>
-                        <th>IMAGE</th>
-                        <th>WORD</th>
-                        <th>USER</th>
-                        <th>STATUS</th>
-                        <th>ACTION</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="text-center">
-                        <th>1</th>
-                        <td>Img</td>
-                        <td>young</td>
-                        <td>Vijay</td>
-                        <td>1</td>
-                        <td class="d-flex justify-content-around">
-
-                            <button class="btn btn-primary">Approve</button>
-                            <button class="btn btn-warning">Disapprove</button>
-                            <button class="btn btn-danger">Delete</button>
-                        </td>
-                    </tr>
-
-                </tbody>
-            </table>
-        </div>
+    <main class="addWordArea container">
+        <form action="" enctype=" multipart/form-data">
+            <div class="text-center">
+                <h1 class="fs-1 text-center text-warning mb-5"> Add Words Here</h1>
+                <input type="text" class="p-3 w-50 mb-4 form-control m-auto fs-3">
+                <input type="file" class="form-control w-50 m-auto mb-3">
+                <button class="w-25 btn btn-warning fw-bold p-2">Add</button>
+            </div>
+        </form>
     </main>
 
 
 
-    <script src="../../js/lib/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/lib/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 

@@ -35,7 +35,7 @@
         <div class="col-md-6 col-sm-8">
             <form>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label text-white fw-bold fs-5">User Name</label>
+                    <label for="exampleInputEmail1" class="form-label text-white fw-bold fs-5">User Name <span class="text-danger">*</span></label>
                     <input type="text" class="form-control p-2" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
@@ -43,7 +43,7 @@
                     <input type="email" class="form-control p-2" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label text-white fw-bold fs-5">Password</label>
+                    <label for="exampleInputPassword1" class="form-label text-white fw-bold fs-5">Password <span class="text-danger">*</span></label>
                     <input type="password" class="form-control p-2" id="exampleInputPassword1">
                 </div>
                 <button type="submit" class="btn btn-warning w-100 mt-3 fw-bold p-2">Register</button>
